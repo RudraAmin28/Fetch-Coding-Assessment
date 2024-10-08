@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		59A56DDF2CB598D0001339CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59A56DC62CB598CE001339CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59A56DCD2CB598CE001339CA;
+			remoteInfo = "Fetch Coding Assessment";
+		};
+		59A56DE92CB598D0001339CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59A56DC62CB598CE001339CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59A56DCD2CB598CE001339CA;
+			remoteInfo = "Fetch Coding Assessment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59A56DCE2CB598CE001339CA /* Fetch Coding Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch Coding Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A56DDE2CB598D0001339CA /* Fetch Coding AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch Coding AssessmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A56DE82CB598D0001339CA /* Fetch Coding AssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch Coding AssessmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		59A56DD02CB598CE001339CA /* Fetch Coding Assessment */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fetch Coding Assessment";
+			sourceTree = "<group>";
+		};
+		59A56DE12CB598D0001339CA /* Fetch Coding AssessmentTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fetch Coding AssessmentTests";
+			sourceTree = "<group>";
+		};
+		59A56DEB2CB598D0001339CA /* Fetch Coding AssessmentUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fetch Coding AssessmentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59A56DCB2CB598CE001339CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A56DDB2CB598D0001339CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A56DE52CB598D0001339CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59A56DC52CB598CE001339CA = {
+			isa = PBXGroup;
+			children = (
+				59A56DD02CB598CE001339CA /* Fetch Coding Assessment */,
+				59A56DE12CB598D0001339CA /* Fetch Coding AssessmentTests */,
+				59A56DEB2CB598D0001339CA /* Fetch Coding AssessmentUITests */,
+				59A56DCF2CB598CE001339CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59A56DCF2CB598CE001339CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59A56DCE2CB598CE001339CA /* Fetch Coding Assessment.app */,
+				59A56DDE2CB598D0001339CA /* Fetch Coding AssessmentTests.xctest */,
+				59A56DE82CB598D0001339CA /* Fetch Coding AssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59A56DCD2CB598CE001339CA /* Fetch Coding Assessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A56DF22CB598D0001339CA /* Build configuration list for PBXNativeTarget "Fetch Coding Assessment" */;
+			buildPhases = (
+				59A56DCA2CB598CE001339CA /* Sources */,
+				59A56DCB2CB598CE001339CA /* Frameworks */,
+				59A56DCC2CB598CE001339CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				59A56DD02CB598CE001339CA /* Fetch Coding Assessment */,
+			);
+			name = "Fetch Coding Assessment";
+			packageProductDependencies = (
+			);
+			productName = "Fetch Coding Assessment";
+			productReference = 59A56DCE2CB598CE001339CA /* Fetch Coding Assessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59A56DDD2CB598D0001339CA /* Fetch Coding AssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A56DF52CB598D0001339CA /* Build configuration list for PBXNativeTarget "Fetch Coding AssessmentTests" */;
+			buildPhases = (
+				59A56DDA2CB598D0001339CA /* Sources */,
+				59A56DDB2CB598D0001339CA /* Frameworks */,
+				59A56DDC2CB598D0001339CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59A56DE02CB598D0001339CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				59A56DE12CB598D0001339CA /* Fetch Coding AssessmentTests */,
+			);
+			name = "Fetch Coding AssessmentTests";
+			packageProductDependencies = (
+			);
+			productName = "Fetch Coding AssessmentTests";
+			productReference = 59A56DDE2CB598D0001339CA /* Fetch Coding AssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59A56DE72CB598D0001339CA /* Fetch Coding AssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A56DF82CB598D0001339CA /* Build configuration list for PBXNativeTarget "Fetch Coding AssessmentUITests" */;
+			buildPhases = (
+				59A56DE42CB598D0001339CA /* Sources */,
+				59A56DE52CB598D0001339CA /* Frameworks */,
+				59A56DE62CB598D0001339CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59A56DEA2CB598D0001339CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				59A56DEB2CB598D0001339CA /* Fetch Coding AssessmentUITests */,
+			);
+			name = "Fetch Coding AssessmentUITests";
+			packageProductDependencies = (
+			);
+			productName = "Fetch Coding AssessmentUITests";
+			productReference = 59A56DE82CB598D0001339CA /* Fetch Coding AssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59A56DC62CB598CE001339CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					59A56DCD2CB598CE001339CA = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					59A56DDD2CB598D0001339CA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 59A56DCD2CB598CE001339CA;
+					};
+					59A56DE72CB598D0001339CA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 59A56DCD2CB598CE001339CA;
+					};
+				};
+			};
+			buildConfigurationList = 59A56DC92CB598CE001339CA /* Build configuration list for PBXProject "Fetch Coding Assessment" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59A56DC52CB598CE001339CA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 59A56DCF2CB598CE001339CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59A56DCD2CB598CE001339CA /* Fetch Coding Assessment */,
+				59A56DDD2CB598D0001339CA /* Fetch Coding AssessmentTests */,
+				59A56DE72CB598D0001339CA /* Fetch Coding AssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59A56DCC2CB598CE001339CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A56DDC2CB598D0001339CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A56DE62CB598D0001339CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59A56DCA2CB598CE001339CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A56DDA2CB598D0001339CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A56DE42CB598D0001339CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59A56DE02CB598D0001339CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59A56DCD2CB598CE001339CA /* Fetch Coding Assessment */;
+			targetProxy = 59A56DDF2CB598D0001339CA /* PBXContainerItemProxy */;
+		};
+		59A56DEA2CB598D0001339CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59A56DCD2CB598CE001339CA /* Fetch Coding Assessment */;
+			targetProxy = 59A56DE92CB598D0001339CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		59A56DF02CB598D0001339CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59A56DF12CB598D0001339CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59A56DF32CB598D0001339CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fetch Coding Assessment/Preview Content\"";
+				DEVELOPMENT_TEAM = 422P875XS4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift.Fetch-Coding-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59A56DF42CB598D0001339CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fetch Coding Assessment/Preview Content\"";
+				DEVELOPMENT_TEAM = 422P875XS4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift.Fetch-Coding-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59A56DF62CB598D0001339CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 422P875XS4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift.Fetch-Coding-AssessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Coding Assessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fetch Coding Assessment";
+			};
+			name = Debug;
+		};
+		59A56DF72CB598D0001339CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 422P875XS4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift.Fetch-Coding-AssessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Coding Assessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fetch Coding Assessment";
+			};
+			name = Release;
+		};
+		59A56DF92CB598D0001339CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 422P875XS4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift.Fetch-Coding-AssessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fetch Coding Assessment";
+			};
+			name = Debug;
+		};
+		59A56DFA2CB598D0001339CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 422P875XS4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift.Fetch-Coding-AssessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fetch Coding Assessment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59A56DC92CB598CE001339CA /* Build configuration list for PBXProject "Fetch Coding Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A56DF02CB598D0001339CA /* Debug */,
+				59A56DF12CB598D0001339CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A56DF22CB598D0001339CA /* Build configuration list for PBXNativeTarget "Fetch Coding Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A56DF32CB598D0001339CA /* Debug */,
+				59A56DF42CB598D0001339CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A56DF52CB598D0001339CA /* Build configuration list for PBXNativeTarget "Fetch Coding AssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A56DF62CB598D0001339CA /* Debug */,
+				59A56DF72CB598D0001339CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A56DF82CB598D0001339CA /* Build configuration list for PBXNativeTarget "Fetch Coding AssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A56DF92CB598D0001339CA /* Debug */,
+				59A56DFA2CB598D0001339CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59A56DC62CB598CE001339CA /* Project object */;
+}
